@@ -6,5 +6,6 @@ void* __swift_bridge__$calculate_amplification(void* initial_amplification, void
 void* __swift_bridge__$calculate_shares(void* reserves, void* assets, void* amplification, void* share_issuance, void* fee);
 void* __swift_bridge__$calculate_shares_for_amount(void* reserves, uint32_t asset_in, void* amount, void* amplification, void* share_issuance, void* fee);
 void* __swift_bridge__$calculate_add_one_asset(void* reserves, void* shares, uint32_t asset_in, void* amplification, void* share_issuance, void* fee);
+void* __swift_bridge__$calculate_liquidity_out_one_asset(void* reserves, void* shares, uint32_t asset_out, void* amplification, void* share_issuance, void* withdraw_fee);
 
 

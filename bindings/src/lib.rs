@@ -60,6 +60,16 @@ mod ffi {
             share_issuance: String,
             fee: String,
         ) -> String;
+
+        #[swift_bridge(swift_name = "calculateLiquidityOutOneAsset")]
+        fn calculate_liquidity_out_one_asset(
+            reserves: String,
+            shares: String,
+            asset_out: u32,
+            amplification: String,
+            share_issuance: String,
+            withdraw_fee: String,
+        ) -> String;
     }
 }
 
@@ -381,8 +391,45 @@ pub fn calculate_add_one_asset(
 }
 
 #[no_mangle]
-pub fn pool_account_name(share_asset_id: u32) -> Vec<u8> {
-    let mut name = "sts".as_bytes().to_vec();
-    name.extend_from_slice(&(share_asset_id).to_le_bytes());
-    return name;
+pub fn calculate_liquidity_out_one_asset(
+    reserves: String,
+    shares: String,
+    asset_out: u32,
+    amplification: String,
+    share_issuance: String,
+    withdraw_fee: String,
+) -> String {
+    let reserves: serde_json::Result<Vec<AssetBalance>> = serde_json::from_str(&reserves);
+    if reserves.is_err() {
+        return error();
+    }
+    let mut reserves = reserves.unwrap();
+    reserves.sort_by_key(|v| v.asset_id);
+
+    let idx_out = reserves.iter().position(|v| v.asset_id == asset_out);
+    if idx_out.is_none() {
+        return error();
+    }
+
+    let shares_out = parse_into!(u128, shares);
+    let amplification = parse_into!(u128, amplification);
+    let issuance = parse_into!(u128, share_issuance);
+    let fee = Permill::from_float(parse_into!(f64, withdraw_fee));
+
+    let balances: Vec<AssetReserve> = reserves.iter().map(|v| v.into()).collect();
+
+    let result = hydra_dx_math::stableswap::calculate_withdraw_one_asset::<D_ITERATIONS, Y_ITERATIONS>(
+        &balances,
+        shares_out,
+        idx_out.unwrap(),
+        issuance,
+        amplification,
+        fee,
+    );
+
+    if let Some(r) = result {
+        r.0.to_string()
+    } else {
+        error()
+    }
 }
