@@ -7,20 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4492294C5F87051A0BB2A47A09E4E6D8 /* hydra-dx.h in Headers */ = {isa = PBXBuildFile; fileRef = 84616EE9E817025FDC6FE5B527C51B67 /* hydra-dx.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4C3525F2A0F11F8D46D03D6B0F5ACD6D /* Stableswap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C47843436A7AF59E04CF2B694AF6FA0 /* Stableswap.swift */; };
-		59514689DEC094EC883827A45B2DCA25 /* SwiftBridgeCore.h in Headers */ = {isa = PBXBuildFile; fileRef = AE310AF8FFA83476A8B71A2A4AED6AD4 /* SwiftBridgeCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		757DA5C50AA7CBA42B0297ED605E9B36 /* HydraMath-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F71D2C3B04CDCE4AA2DD29BB2A7E4957 /* HydraMath-dummy.m */; };
-		7F82637797DCA953E7B5F86B91D1E815 /* HydraMath-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 92451F50443B76FA0E5BA8CB62E8B16A /* HydraMath-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4492294C5F87051A0BB2A47A09E4E6D8 /* hydra-dx.h in Headers */ = {isa = PBXBuildFile; fileRef = D31458B58D2209DDE2E082D6D3A8FD79 /* hydra-dx.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		59514689DEC094EC883827A45B2DCA25 /* SwiftBridgeCore.h in Headers */ = {isa = PBXBuildFile; fileRef = FBCD0486DE46B4D02D4151D2ACF29DEF /* SwiftBridgeCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5EE3F2D855E82FAC1C2400F9371EFA08 /* Stableswap.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE211B94A677A72FD90A8121069B91C8 /* Stableswap.swift */; };
+		7F82637797DCA953E7B5F86B91D1E815 /* HydraMath-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 96BD9AEF9E94A31238A7DE3E1C56F098 /* HydraMath-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AABA4FF866B350AD1C8BA60052DB3F85 /* SwiftBridgeCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8E57A2360ED640E66B5FBC48448562 /* SwiftBridgeCore.swift */; };
 		B65EC64195F5BFB244E1189D7BBE7C00 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		BA43A27EE741ACD58FC401049CFF1B39 /* SwiftBridgeCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46491BFA426BCDFC7214ADA63F29987E /* SwiftBridgeCore.swift */; };
+		BF116435333FC662CDD1A71B96090226 /* HydraMath-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DB99422E380FD94A2C8E355487AD30F1 /* HydraMath-dummy.m */; };
 		C02E1779EE6467B89E814BC7B629E06A /* Pods-HydraMath_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E5717CD051D53113E2DFE0CF3944570 /* Pods-HydraMath_Tests-dummy.m */; };
 		D5C0A4841915C9AD856371A5B5CA84D7 /* Pods-HydraMath_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F317D851B8446B53F7AD758AC9719514 /* Pods-HydraMath_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F06024FB9AB1301B4CA1568348B74ADF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4F4509115D80D2C663D517333EA35A96 /* PBXContainerItemProxy */ = {
+		6DB26BC3A9CB28D4D170C637990F9041 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -31,31 +31,33 @@
 
 /* Begin PBXFileReference section */
 		02BC61D9D91D88E0407D1BC47B03F832 /* Pods-HydraMath_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HydraMath_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		0C47843436A7AF59E04CF2B694AF6FA0 /* Stableswap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Stableswap.swift; sourceTree = "<group>"; };
+		0BC444511570A388C3F22BD58B92A51F /* HydraMath.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HydraMath.release.xcconfig; sourceTree = "<group>"; };
 		0E5717CD051D53113E2DFE0CF3944570 /* Pods-HydraMath_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HydraMath_Tests-dummy.m"; sourceTree = "<group>"; };
 		21B5B3AED5ABF1C2AD5974B2F8918A1A /* Pods-HydraMath_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HydraMath_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		46491BFA426BCDFC7214ADA63F29987E /* SwiftBridgeCore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SwiftBridgeCore.swift; sourceTree = "<group>"; };
+		3B6950767ACE5CB7577187B100ABD4BA /* HydraMath-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HydraMath-Info.plist"; sourceTree = "<group>"; };
+		3D8E57A2360ED640E66B5FBC48448562 /* SwiftBridgeCore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SwiftBridgeCore.swift; sourceTree = "<group>"; };
+		3F0034AD7D680140669083B76B84C9DB /* HydraMath.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HydraMath.debug.xcconfig; sourceTree = "<group>"; };
 		46B81ECDEDD3DD3EFB6D7F9DBCC93A70 /* Pods-HydraMath_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HydraMath_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		4B52165D1E4BC48F2AEE7FC87751874C /* Pods-HydraMath_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HydraMath_Tests-Info.plist"; sourceTree = "<group>"; };
-		560B24C5FBE71010420711142D2B6B45 /* libhydra_dx.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libhydra_dx.a; path = HydraMath/lib/libhydra_dx.a; sourceTree = "<group>"; };
-		63E9005E6A665F51B6A18845D829F727 /* HydraMath.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HydraMath.release.xcconfig; sourceTree = "<group>"; };
+		4BB37166CD5FEC59E70ADA5DC9F3C00F /* HydraMath.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HydraMath.modulemap; sourceTree = "<group>"; };
+		4E7AEED4AABE9C65BCC7201D08FE6442 /* libhydra_dx.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libhydra_dx.a; path = HydraMath/lib/libhydra_dx.a; sourceTree = "<group>"; };
+		5D48B2B082B86951D0EA8C33A21B041C /* HydraMath.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HydraMath.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7FF478E670BF0F44F98AB7AAA8F58968 /* Pods-HydraMath_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HydraMath_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		8363916A6DD25BA72D06100BA14C05D2 /* HydraMath */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HydraMath; path = HydraMath.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		84616EE9E817025FDC6FE5B527C51B67 /* hydra-dx.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "hydra-dx.h"; sourceTree = "<group>"; };
-		910A123AEAF25E2F8D4111CC1120EA3C /* HydraMath.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HydraMath.modulemap; sourceTree = "<group>"; };
-		92451F50443B76FA0E5BA8CB62E8B16A /* HydraMath-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HydraMath-umbrella.h"; sourceTree = "<group>"; };
-		9BE3389A3740E2F5F276290F36D3C254 /* HydraMath-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HydraMath-prefix.pch"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AE310AF8FFA83476A8B71A2A4AED6AD4 /* SwiftBridgeCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SwiftBridgeCore.h; sourceTree = "<group>"; };
+		96BD9AEF9E94A31238A7DE3E1C56F098 /* HydraMath-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HydraMath-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AFFD6134295D20B31291E99AA4104B8E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		B188B29F6CDDFD8DA3EA2CFE6A788665 /* Pods-HydraMath_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HydraMath_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		B977237D13E2B802F98F776E07FF730E /* HydraMath-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HydraMath-prefix.pch"; sourceTree = "<group>"; };
+		BC019518EBA2CE0B5C5F3EC90E66D6DC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		BF04AFC6544C9C0BC9325B0AE7396827 /* Pods-HydraMath_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-HydraMath_Tests"; path = Pods_HydraMath_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D136936CFE61C6E57FCC1F1212B8AF61 /* HydraMath-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HydraMath-Info.plist"; sourceTree = "<group>"; };
-		E7793649C22E89A3F11F5438F6F575FB /* HydraMath.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HydraMath.debug.xcconfig; sourceTree = "<group>"; };
-		E99710B07E306D0C28544FF44E098B3B /* HydraMath.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = HydraMath.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D31458B58D2209DDE2E082D6D3A8FD79 /* hydra-dx.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "hydra-dx.h"; sourceTree = "<group>"; };
+		DB99422E380FD94A2C8E355487AD30F1 /* HydraMath-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HydraMath-dummy.m"; sourceTree = "<group>"; };
+		DE211B94A677A72FD90A8121069B91C8 /* Stableswap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Stableswap.swift; sourceTree = "<group>"; };
 		EAE85C278E136DE716FED88A25C7D979 /* Pods-HydraMath_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HydraMath_Tests.modulemap"; sourceTree = "<group>"; };
 		F317D851B8446B53F7AD758AC9719514 /* Pods-HydraMath_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HydraMath_Tests-umbrella.h"; sourceTree = "<group>"; };
-		F71D2C3B04CDCE4AA2DD29BB2A7E4957 /* HydraMath-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HydraMath-dummy.m"; sourceTree = "<group>"; };
+		FBCD0486DE46B4D02D4151D2ACF29DEF /* SwiftBridgeCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SwiftBridgeCore.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,28 +80,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		233273EAED7475AAF514407F7BBBE3DE /* lib */ = {
+		11D7CD94C13ED2DF21881EB4086EB97D /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				F05984B8A7E1B391B6B21BA656DABA0C /* include */,
+				DE211B94A677A72FD90A8121069B91C8 /* Stableswap.swift */,
+				3D8E57A2360ED640E66B5FBC48448562 /* SwiftBridgeCore.swift */,
+			);
+			name = Classes;
+			path = HydraMath/Classes;
+			sourceTree = "<group>";
+		};
+		425498716CB54F983269A7B51BBFC633 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				D31458B58D2209DDE2E082D6D3A8FD79 /* hydra-dx.h */,
+				FBCD0486DE46B4D02D4151D2ACF29DEF /* SwiftBridgeCore.h */,
+			);
+			name = include;
+			path = include;
+			sourceTree = "<group>";
+		};
+		454AE6EA02789B364379B3C8ABBD1306 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				425498716CB54F983269A7B51BBFC633 /* include */,
 			);
 			name = lib;
 			path = HydraMath/lib;
 			sourceTree = "<group>";
 		};
-		3ED7A0571F0F43E4930088FC10EAB33B /* Support Files */ = {
+		4D13A5637BF9C6C85EE0166E920AD476 /* HydraMath */ = {
 			isa = PBXGroup;
 			children = (
-				910A123AEAF25E2F8D4111CC1120EA3C /* HydraMath.modulemap */,
-				F71D2C3B04CDCE4AA2DD29BB2A7E4957 /* HydraMath-dummy.m */,
-				D136936CFE61C6E57FCC1F1212B8AF61 /* HydraMath-Info.plist */,
-				9BE3389A3740E2F5F276290F36D3C254 /* HydraMath-prefix.pch */,
-				92451F50443B76FA0E5BA8CB62E8B16A /* HydraMath-umbrella.h */,
-				E7793649C22E89A3F11F5438F6F575FB /* HydraMath.debug.xcconfig */,
-				63E9005E6A665F51B6A18845D829F727 /* HydraMath.release.xcconfig */,
+				11D7CD94C13ED2DF21881EB4086EB97D /* Classes */,
+				D89041A9D0ED70B43A9FF4918B56EF4C /* Frameworks */,
+				454AE6EA02789B364379B3C8ABBD1306 /* lib */,
+				C4185CA843BA3EE48755207EB3534F55 /* Pod */,
+				EF829C58B4F93731623728EDB0D93B79 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/HydraMath";
+			name = HydraMath;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -116,16 +136,6 @@
 				A5D34FE3FEB035AD9D7EE78744CF52F3 /* Pods-HydraMath_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		A06199CA7AFBE53976C45ABE2696C08B /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				0C47843436A7AF59E04CF2B694AF6FA0 /* Stableswap.swift */,
-				46491BFA426BCDFC7214ADA63F29987E /* SwiftBridgeCore.swift */,
-			);
-			name = Classes;
-			path = HydraMath/Classes;
 			sourceTree = "<group>";
 		};
 		A5D34FE3FEB035AD9D7EE78744CF52F3 /* Pods-HydraMath_Tests */ = {
@@ -154,17 +164,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BF91FF0006343C053294209905EA3616 /* HydraMath */ = {
+		C4185CA843BA3EE48755207EB3534F55 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				A06199CA7AFBE53976C45ABE2696C08B /* Classes */,
-				E5C4C0FEB9287DEE9F89ED2A904A1D86 /* Frameworks */,
-				233273EAED7475AAF514407F7BBBE3DE /* lib */,
-				DACF663BA7FFBEFC7096CC8569156C7C /* Pod */,
-				3ED7A0571F0F43E4930088FC10EAB33B /* Support Files */,
+				5D48B2B082B86951D0EA8C33A21B041C /* HydraMath.podspec */,
+				BC019518EBA2CE0B5C5F3EC90E66D6DC /* LICENSE */,
+				AFFD6134295D20B31291E99AA4104B8E /* README.md */,
 			);
-			name = HydraMath;
-			path = ../..;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -186,37 +193,35 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DACF663BA7FFBEFC7096CC8569156C7C /* Pod */ = {
+		D89041A9D0ED70B43A9FF4918B56EF4C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E99710B07E306D0C28544FF44E098B3B /* HydraMath.podspec */,
+				4E7AEED4AABE9C65BCC7201D08FE6442 /* libhydra_dx.a */,
 			);
-			name = Pod;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		DB10E44662760D3FB9A00E67610DAA05 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				BF91FF0006343C053294209905EA3616 /* HydraMath */,
+				4D13A5637BF9C6C85EE0166E920AD476 /* HydraMath */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		E5C4C0FEB9287DEE9F89ED2A904A1D86 /* Frameworks */ = {
+		EF829C58B4F93731623728EDB0D93B79 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				560B24C5FBE71010420711142D2B6B45 /* libhydra_dx.a */,
+				4BB37166CD5FEC59E70ADA5DC9F3C00F /* HydraMath.modulemap */,
+				DB99422E380FD94A2C8E355487AD30F1 /* HydraMath-dummy.m */,
+				3B6950767ACE5CB7577187B100ABD4BA /* HydraMath-Info.plist */,
+				B977237D13E2B802F98F776E07FF730E /* HydraMath-prefix.pch */,
+				96BD9AEF9E94A31238A7DE3E1C56F098 /* HydraMath-umbrella.h */,
+				3F0034AD7D680140669083B76B84C9DB /* HydraMath.debug.xcconfig */,
+				0BC444511570A388C3F22BD58B92A51F /* HydraMath.release.xcconfig */,
 			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		F05984B8A7E1B391B6B21BA656DABA0C /* include */ = {
-			isa = PBXGroup;
-			children = (
-				84616EE9E817025FDC6FE5B527C51B67 /* hydra-dx.h */,
-				AE310AF8FFA83476A8B71A2A4AED6AD4 /* SwiftBridgeCore.h */,
-			);
-			path = include;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HydraMath";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,7 +260,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				9A61C3ECDE4E076357BD6FF8E658A146 /* PBXTargetDependency */,
+				C88792B82367F6DCD7E03EA8D4394521 /* PBXTargetDependency */,
 			);
 			name = "Pods-HydraMath_Tests";
 			productName = Pods_HydraMath_Tests;
@@ -267,7 +272,7 @@
 			buildConfigurationList = BEF2378ED77F1E021C3B42958F95AAAC /* Build configuration list for PBXNativeTarget "HydraMath" */;
 			buildPhases = (
 				60D1C6B30C4B559D71B53504D762EA73 /* Headers */,
-				141FD62F35309BCAA5A61E3F94091C47 /* Sources */,
+				A2DD2713FB0F7FE0D89C985B7328BE8E /* Sources */,
 				DD95192233BAAD1F84075A4C0A5C40B3 /* Frameworks */,
 				DA933CAEAC3B718C35C90DD3AD0ABB47 /* Resources */,
 			);
@@ -326,13 +331,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		141FD62F35309BCAA5A61E3F94091C47 /* Sources */ = {
+		A2DD2713FB0F7FE0D89C985B7328BE8E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C3525F2A0F11F8D46D03D6B0F5ACD6D /* Stableswap.swift in Sources */,
-				757DA5C50AA7CBA42B0297ED605E9B36 /* HydraMath-dummy.m in Sources */,
-				BA43A27EE741ACD58FC401049CFF1B39 /* SwiftBridgeCore.swift in Sources */,
+				BF116435333FC662CDD1A71B96090226 /* HydraMath-dummy.m in Sources */,
+				5EE3F2D855E82FAC1C2400F9371EFA08 /* Stableswap.swift in Sources */,
+				AABA4FF866B350AD1C8BA60052DB3F85 /* SwiftBridgeCore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,11 +352,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		9A61C3ECDE4E076357BD6FF8E658A146 /* PBXTargetDependency */ = {
+		C88792B82367F6DCD7E03EA8D4394521 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = HydraMath;
 			target = 7F35AC6B719D8B96233BE639CE0F6D0D /* HydraMath */;
-			targetProxy = 4F4509115D80D2C663D517333EA35A96 /* PBXContainerItemProxy */;
+			targetProxy = 6DB26BC3A9CB28D4D170C637990F9041 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -512,7 +517,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -520,7 +526,7 @@
 		};
 		B1C9A4418A5374C468FB20C12DCEDF8A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E7793649C22E89A3F11F5438F6F575FB /* HydraMath.debug.xcconfig */;
+			baseConfigurationReference = 3F0034AD7D680140669083B76B84C9DB /* HydraMath.debug.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -552,7 +558,7 @@
 		};
 		B5EA21CF6696552959DF5E8D2E54459C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 63E9005E6A665F51B6A18845D829F727 /* HydraMath.release.xcconfig */;
+			baseConfigurationReference = 0BC444511570A388C3F22BD58B92A51F /* HydraMath.release.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
