@@ -2,5 +2,7 @@
 
 Build with command:
 
-`cd bindings`
-`cargo lipo --release`
+```
+cd bindings
+cargo lipo --release
+```
