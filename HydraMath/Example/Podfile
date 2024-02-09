@@ -1,0 +1,6 @@
+use_frameworks!
+target 'HydraMath_Tests' do
+  pod 'HydraMath', :path => '../'
+  
+  
+end
