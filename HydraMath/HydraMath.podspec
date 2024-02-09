@@ -21,16 +21,15 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/emkil.russel@gmail.com/HydraMath'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'emkil.russel@gmail.com' => 'emkil.russel@gmail.com' }
-  s.source           = { :git => 'https://github.com/emkil.russel@gmail.com/HydraMath.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.homepage         = 'https://github.com/novasamatech/hydra-math-swift'
+  s.author           = { 'Ruslan Rezin' => 'ruslan@novawallet.io' }
+  s.source           = { :git => 'https://github.com/novasamatech/hydra-math-swift.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '13.0'
 
-  s.source_files = 'HydraMath/Classes/**/*'
+  s.source_files = 'HydraMath/Classes/**/*', 'HydraMath/lib/include/**/*'
+  s.public_header_files = 'HydraMath/lib/include/**/*.h'
+  s.vendored_libraries = 'HydraMath/lib/libhydra_dx.a'
   
   # s.resource_bundles = {
   #   'HydraMath' => ['HydraMath/Assets/*.png']

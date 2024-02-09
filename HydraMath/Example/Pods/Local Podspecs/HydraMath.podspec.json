@@ -3,20 +3,21 @@
   "version": "0.1.0",
   "summary": "A short description of HydraMath.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/emkil.russel@gmail.com/HydraMath",
-  "license": {
-    "type": "MIT",
-    "file": "LICENSE"
-  },
+  "homepage": "https://github.com/novasamatech/hydra-math-swift",
   "authors": {
-    "emkil.russel@gmail.com": "emkil.russel@gmail.com"
+    "Ruslan Rezin": "ruslan@novawallet.io"
   },
   "source": {
-    "git": "https://github.com/emkil.russel@gmail.com/HydraMath.git",
+    "git": "https://github.com/novasamatech/hydra-math-swift.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "10.0"
+    "ios": "13.0"
   },
-  "source_files": "HydraMath/Classes/**/*"
+  "source_files": [
+    "HydraMath/Classes/**/*",
+    "HydraMath/lib/include/**/*"
+  ],
+  "public_header_files": "HydraMath/lib/include/**/*.h",
+  "vendored_libraries": "HydraMath/lib/libhydra_dx.a"
 }
