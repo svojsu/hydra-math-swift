@@ -1,0 +1,38 @@
+# This file is create based on https://github.com/galacticcouncil/HydraDX-wasm/blob/main/Cargo.toml to support swift build
+
+[package]
+authors = ['Novasama Technologies']
+edition = '2021'
+license = 'Apache 2.0'
+name = "hydra-dx"
+repository = 'https://github.com/novasamatech/hydra-math-swift'
+version = "4.4.0"
+
+[lib]
+crate-type = ["staticlib", "cdylib"]
+
+[dependencies]
+wee_alloc = "0.4.5"
+serde = { version = "1.0.169", features = ["derive"] }
+serde_json = "1.0.100"
+serde-aux = "4.2.0"
+sp-arithmetic = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.38", default-features = false }
+hydra-dx-math = { git = "https://github.com/galacticcouncil/HydraDX-node", rev="9e733374233e2bdef039d5b3e73c5e939d7512f4"}
+
+[dev-dependencies]
+sp-core = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.38", default-features = false}
+sp-runtime  = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.38", default-features = false }
+
+[profile.release]
+opt-level = "s"
+
+[features]
+default = ["std"]
+std = ["sp-arithmetic/std", "sp-runtime/std"]
+xyk = []
+lbp = []
+stableswap = []
+liquidity-mining = []
+omnipool = []
+ema = []
+staking = []
