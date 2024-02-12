@@ -1,0 +1,16 @@
+PODS:
+  - HydraMath (0.1.0)
+
+DEPENDENCIES:
+  - HydraMath (from `../`)
+
+EXTERNAL SOURCES:
+  HydraMath:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HydraMath: 9d3eed16500b480673599494e85d60060b44a5a8
+
+PODFILE CHECKSUM: 36f67733f2a33984bad014f25abf99054d122cf0
+
+COCOAPODS: 1.13.0

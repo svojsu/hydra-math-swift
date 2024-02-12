@@ -1,0 +1,23 @@
+{
+  "name": "HydraMath",
+  "version": "0.1.0",
+  "summary": "A short description of HydraMath.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/novasamatech/hydra-math-swift",
+  "authors": {
+    "Ruslan Rezin": "ruslan@novawallet.io"
+  },
+  "source": {
+    "git": "https://github.com/novasamatech/hydra-math-swift.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "source_files": [
+    "HydraMath/Classes/**/*",
+    "HydraMath/lib/include/**/*"
+  ],
+  "public_header_files": "HydraMath/lib/include/**/*.h",
+  "vendored_libraries": "HydraMath/lib/libhydra_dx.a"
+}

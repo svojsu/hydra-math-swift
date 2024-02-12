@@ -1,0 +1,659 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4492294C5F87051A0BB2A47A09E4E6D8 /* hydra-dx.h in Headers */ = {isa = PBXBuildFile; fileRef = D31458B58D2209DDE2E082D6D3A8FD79 /* hydra-dx.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		59514689DEC094EC883827A45B2DCA25 /* SwiftBridgeCore.h in Headers */ = {isa = PBXBuildFile; fileRef = FBCD0486DE46B4D02D4151D2ACF29DEF /* SwiftBridgeCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5EE3F2D855E82FAC1C2400F9371EFA08 /* Stableswap.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE211B94A677A72FD90A8121069B91C8 /* Stableswap.swift */; };
+		7F82637797DCA953E7B5F86B91D1E815 /* HydraMath-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 96BD9AEF9E94A31238A7DE3E1C56F098 /* HydraMath-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AABA4FF866B350AD1C8BA60052DB3F85 /* SwiftBridgeCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8E57A2360ED640E66B5FBC48448562 /* SwiftBridgeCore.swift */; };
+		B65EC64195F5BFB244E1189D7BBE7C00 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		BF116435333FC662CDD1A71B96090226 /* HydraMath-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DB99422E380FD94A2C8E355487AD30F1 /* HydraMath-dummy.m */; };
+		C02E1779EE6467B89E814BC7B629E06A /* Pods-HydraMath_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E5717CD051D53113E2DFE0CF3944570 /* Pods-HydraMath_Tests-dummy.m */; };
+		D5C0A4841915C9AD856371A5B5CA84D7 /* Pods-HydraMath_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F317D851B8446B53F7AD758AC9719514 /* Pods-HydraMath_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F06024FB9AB1301B4CA1568348B74ADF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6DB26BC3A9CB28D4D170C637990F9041 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F35AC6B719D8B96233BE639CE0F6D0D;
+			remoteInfo = HydraMath;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02BC61D9D91D88E0407D1BC47B03F832 /* Pods-HydraMath_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HydraMath_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0BC444511570A388C3F22BD58B92A51F /* HydraMath.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HydraMath.release.xcconfig; sourceTree = "<group>"; };
+		0E5717CD051D53113E2DFE0CF3944570 /* Pods-HydraMath_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HydraMath_Tests-dummy.m"; sourceTree = "<group>"; };
+		21B5B3AED5ABF1C2AD5974B2F8918A1A /* Pods-HydraMath_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HydraMath_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		3B6950767ACE5CB7577187B100ABD4BA /* HydraMath-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HydraMath-Info.plist"; sourceTree = "<group>"; };
+		3D8E57A2360ED640E66B5FBC48448562 /* SwiftBridgeCore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SwiftBridgeCore.swift; sourceTree = "<group>"; };
+		3F0034AD7D680140669083B76B84C9DB /* HydraMath.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HydraMath.debug.xcconfig; sourceTree = "<group>"; };
+		46B81ECDEDD3DD3EFB6D7F9DBCC93A70 /* Pods-HydraMath_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HydraMath_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4B52165D1E4BC48F2AEE7FC87751874C /* Pods-HydraMath_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HydraMath_Tests-Info.plist"; sourceTree = "<group>"; };
+		4BB37166CD5FEC59E70ADA5DC9F3C00F /* HydraMath.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HydraMath.modulemap; sourceTree = "<group>"; };
+		4E7AEED4AABE9C65BCC7201D08FE6442 /* libhydra_dx.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libhydra_dx.a; path = HydraMath/lib/libhydra_dx.a; sourceTree = "<group>"; };
+		5D48B2B082B86951D0EA8C33A21B041C /* HydraMath.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HydraMath.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7FF478E670BF0F44F98AB7AAA8F58968 /* Pods-HydraMath_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HydraMath_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		8363916A6DD25BA72D06100BA14C05D2 /* HydraMath */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HydraMath; path = HydraMath.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		96BD9AEF9E94A31238A7DE3E1C56F098 /* HydraMath-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HydraMath-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AFFD6134295D20B31291E99AA4104B8E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		B188B29F6CDDFD8DA3EA2CFE6A788665 /* Pods-HydraMath_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HydraMath_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		B977237D13E2B802F98F776E07FF730E /* HydraMath-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HydraMath-prefix.pch"; sourceTree = "<group>"; };
+		BC019518EBA2CE0B5C5F3EC90E66D6DC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		BF04AFC6544C9C0BC9325B0AE7396827 /* Pods-HydraMath_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-HydraMath_Tests"; path = Pods_HydraMath_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D31458B58D2209DDE2E082D6D3A8FD79 /* hydra-dx.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "hydra-dx.h"; sourceTree = "<group>"; };
+		DB99422E380FD94A2C8E355487AD30F1 /* HydraMath-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HydraMath-dummy.m"; sourceTree = "<group>"; };
+		DE211B94A677A72FD90A8121069B91C8 /* Stableswap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Stableswap.swift; sourceTree = "<group>"; };
+		EAE85C278E136DE716FED88A25C7D979 /* Pods-HydraMath_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HydraMath_Tests.modulemap"; sourceTree = "<group>"; };
+		F317D851B8446B53F7AD758AC9719514 /* Pods-HydraMath_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HydraMath_Tests-umbrella.h"; sourceTree = "<group>"; };
+		FBCD0486DE46B4D02D4151D2ACF29DEF /* SwiftBridgeCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SwiftBridgeCore.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B62884A58C9CD92476E26AE7A223372F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B65EC64195F5BFB244E1189D7BBE7C00 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD95192233BAAD1F84075A4C0A5C40B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F06024FB9AB1301B4CA1568348B74ADF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11D7CD94C13ED2DF21881EB4086EB97D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DE211B94A677A72FD90A8121069B91C8 /* Stableswap.swift */,
+				3D8E57A2360ED640E66B5FBC48448562 /* SwiftBridgeCore.swift */,
+			);
+			name = Classes;
+			path = HydraMath/Classes;
+			sourceTree = "<group>";
+		};
+		425498716CB54F983269A7B51BBFC633 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				D31458B58D2209DDE2E082D6D3A8FD79 /* hydra-dx.h */,
+				FBCD0486DE46B4D02D4151D2ACF29DEF /* SwiftBridgeCore.h */,
+			);
+			name = include;
+			path = include;
+			sourceTree = "<group>";
+		};
+		454AE6EA02789B364379B3C8ABBD1306 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				425498716CB54F983269A7B51BBFC633 /* include */,
+			);
+			name = lib;
+			path = HydraMath/lib;
+			sourceTree = "<group>";
+		};
+		4D13A5637BF9C6C85EE0166E920AD476 /* HydraMath */ = {
+			isa = PBXGroup;
+			children = (
+				11D7CD94C13ED2DF21881EB4086EB97D /* Classes */,
+				D89041A9D0ED70B43A9FF4918B56EF4C /* Frameworks */,
+				454AE6EA02789B364379B3C8ABBD1306 /* lib */,
+				C4185CA843BA3EE48755207EB3534F55 /* Pod */,
+				EF829C58B4F93731623728EDB0D93B79 /* Support Files */,
+			);
+			name = HydraMath;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		580D83C1DA9D0F670423094A7EC1185C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A5D34FE3FEB035AD9D7EE78744CF52F3 /* Pods-HydraMath_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A5D34FE3FEB035AD9D7EE78744CF52F3 /* Pods-HydraMath_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EAE85C278E136DE716FED88A25C7D979 /* Pods-HydraMath_Tests.modulemap */,
+				02BC61D9D91D88E0407D1BC47B03F832 /* Pods-HydraMath_Tests-acknowledgements.markdown */,
+				46B81ECDEDD3DD3EFB6D7F9DBCC93A70 /* Pods-HydraMath_Tests-acknowledgements.plist */,
+				0E5717CD051D53113E2DFE0CF3944570 /* Pods-HydraMath_Tests-dummy.m */,
+				B188B29F6CDDFD8DA3EA2CFE6A788665 /* Pods-HydraMath_Tests-frameworks.sh */,
+				4B52165D1E4BC48F2AEE7FC87751874C /* Pods-HydraMath_Tests-Info.plist */,
+				F317D851B8446B53F7AD758AC9719514 /* Pods-HydraMath_Tests-umbrella.h */,
+				21B5B3AED5ABF1C2AD5974B2F8918A1A /* Pods-HydraMath_Tests.debug.xcconfig */,
+				7FF478E670BF0F44F98AB7AAA8F58968 /* Pods-HydraMath_Tests.release.xcconfig */,
+			);
+			name = "Pods-HydraMath_Tests";
+			path = "Target Support Files/Pods-HydraMath_Tests";
+			sourceTree = "<group>";
+		};
+		AF0126E149635314487412B262DEB09B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8363916A6DD25BA72D06100BA14C05D2 /* HydraMath */,
+				BF04AFC6544C9C0BC9325B0AE7396827 /* Pods-HydraMath_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4185CA843BA3EE48755207EB3534F55 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				5D48B2B082B86951D0EA8C33A21B041C /* HydraMath.podspec */,
+				BC019518EBA2CE0B5C5F3EC90E66D6DC /* LICENSE */,
+				AFFD6134295D20B31291E99AA4104B8E /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				DB10E44662760D3FB9A00E67610DAA05 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				AF0126E149635314487412B262DEB09B /* Products */,
+				580D83C1DA9D0F670423094A7EC1185C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D89041A9D0ED70B43A9FF4918B56EF4C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E7AEED4AABE9C65BCC7201D08FE6442 /* libhydra_dx.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB10E44662760D3FB9A00E67610DAA05 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4D13A5637BF9C6C85EE0166E920AD476 /* HydraMath */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		EF829C58B4F93731623728EDB0D93B79 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4BB37166CD5FEC59E70ADA5DC9F3C00F /* HydraMath.modulemap */,
+				DB99422E380FD94A2C8E355487AD30F1 /* HydraMath-dummy.m */,
+				3B6950767ACE5CB7577187B100ABD4BA /* HydraMath-Info.plist */,
+				B977237D13E2B802F98F776E07FF730E /* HydraMath-prefix.pch */,
+				96BD9AEF9E94A31238A7DE3E1C56F098 /* HydraMath-umbrella.h */,
+				3F0034AD7D680140669083B76B84C9DB /* HydraMath.debug.xcconfig */,
+				0BC444511570A388C3F22BD58B92A51F /* HydraMath.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HydraMath";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		60D1C6B30C4B559D71B53504D762EA73 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4492294C5F87051A0BB2A47A09E4E6D8 /* hydra-dx.h in Headers */,
+				7F82637797DCA953E7B5F86B91D1E815 /* HydraMath-umbrella.h in Headers */,
+				59514689DEC094EC883827A45B2DCA25 /* SwiftBridgeCore.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70BF25C456247CE6E3166ACFEDB74E4C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5C0A4841915C9AD856371A5B5CA84D7 /* Pods-HydraMath_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6B6B3E29F681EEDA75EF06D8C6DB6C9A /* Pods-HydraMath_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A55C1A6B999F1A30786C3B8670C2A3D /* Build configuration list for PBXNativeTarget "Pods-HydraMath_Tests" */;
+			buildPhases = (
+				70BF25C456247CE6E3166ACFEDB74E4C /* Headers */,
+				F9DCF00D2FBC7125E2AB49262AE4E50D /* Sources */,
+				B62884A58C9CD92476E26AE7A223372F /* Frameworks */,
+				E7B1A46D04EC8563249F7EA6E9731C2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C88792B82367F6DCD7E03EA8D4394521 /* PBXTargetDependency */,
+			);
+			name = "Pods-HydraMath_Tests";
+			productName = Pods_HydraMath_Tests;
+			productReference = BF04AFC6544C9C0BC9325B0AE7396827 /* Pods-HydraMath_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		7F35AC6B719D8B96233BE639CE0F6D0D /* HydraMath */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEF2378ED77F1E021C3B42958F95AAAC /* Build configuration list for PBXNativeTarget "HydraMath" */;
+			buildPhases = (
+				60D1C6B30C4B559D71B53504D762EA73 /* Headers */,
+				A2DD2713FB0F7FE0D89C985B7328BE8E /* Sources */,
+				DD95192233BAAD1F84075A4C0A5C40B3 /* Frameworks */,
+				DA933CAEAC3B718C35C90DD3AD0ABB47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HydraMath;
+			productName = HydraMath;
+			productReference = 8363916A6DD25BA72D06100BA14C05D2 /* HydraMath */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = AF0126E149635314487412B262DEB09B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F35AC6B719D8B96233BE639CE0F6D0D /* HydraMath */,
+				6B6B3E29F681EEDA75EF06D8C6DB6C9A /* Pods-HydraMath_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA933CAEAC3B718C35C90DD3AD0ABB47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7B1A46D04EC8563249F7EA6E9731C2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2DD2713FB0F7FE0D89C985B7328BE8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF116435333FC662CDD1A71B96090226 /* HydraMath-dummy.m in Sources */,
+				5EE3F2D855E82FAC1C2400F9371EFA08 /* Stableswap.swift in Sources */,
+				AABA4FF866B350AD1C8BA60052DB3F85 /* SwiftBridgeCore.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9DCF00D2FBC7125E2AB49262AE4E50D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C02E1779EE6467B89E814BC7B629E06A /* Pods-HydraMath_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C88792B82367F6DCD7E03EA8D4394521 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HydraMath;
+			target = 7F35AC6B719D8B96233BE639CE0F6D0D /* HydraMath */;
+			targetProxy = 6DB26BC3A9CB28D4D170C637990F9041 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		364DF0E466D5AD3D81577691F98FCD25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FF478E670BF0F44F98AB7AAA8F58968 /* Pods-HydraMath_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HydraMath_Tests/Pods-HydraMath_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HydraMath_Tests/Pods-HydraMath_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B1C9A4418A5374C468FB20C12DCEDF8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F0034AD7D680140669083B76B84C9DB /* HydraMath.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HydraMath/HydraMath-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HydraMath/HydraMath-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HydraMath/HydraMath.modulemap";
+				PRODUCT_MODULE_NAME = HydraMath;
+				PRODUCT_NAME = HydraMath;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B5EA21CF6696552959DF5E8D2E54459C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BC444511570A388C3F22BD58B92A51F /* HydraMath.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HydraMath/HydraMath-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HydraMath/HydraMath-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HydraMath/HydraMath.modulemap";
+				PRODUCT_MODULE_NAME = HydraMath;
+				PRODUCT_NAME = HydraMath;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D6C1F3E3D3D7FE90FFC2D93AA3C4709F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21B5B3AED5ABF1C2AD5974B2F8918A1A /* Pods-HydraMath_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HydraMath_Tests/Pods-HydraMath_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HydraMath_Tests/Pods-HydraMath_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A55C1A6B999F1A30786C3B8670C2A3D /* Build configuration list for PBXNativeTarget "Pods-HydraMath_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6C1F3E3D3D7FE90FFC2D93AA3C4709F /* Debug */,
+				364DF0E466D5AD3D81577691F98FCD25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
+				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEF2378ED77F1E021C3B42958F95AAAC /* Build configuration list for PBXNativeTarget "HydraMath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1C9A4418A5374C468FB20C12DCEDF8A /* Debug */,
+				B5EA21CF6696552959DF5E8D2E54459C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
