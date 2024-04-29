@@ -23,7 +23,7 @@ TODO: Add long description of the pod here.
 
   s.homepage         = 'https://github.com/novasamatech/hydra-math-swift'
   s.author           = { 'Ruslan Rezin' => 'ruslan@novawallet.io' }
-  s.source           = { :git => 'https://github.com/novasamatech/hydra-math-swift.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/svojsu/hydra-math-swift.git' }
 
   s.ios.deployment_target = '13.0'
 
